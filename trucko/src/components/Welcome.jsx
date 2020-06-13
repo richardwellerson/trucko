@@ -5,7 +5,7 @@ const Welcome = () => {
   const { actualUser } = useContext(Trucko);
   return (
     <div>
-      <p>Bem vindo, {actualUser.nome}</p>
+      <p>Bem vindo, {actualUser.nome}!</p>
     </div>
   );
 };
