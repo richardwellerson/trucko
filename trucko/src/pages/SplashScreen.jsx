@@ -1,10 +1,9 @@
 import React from 'react';
-import Header from '../components/Header';
 
 const SplashScreen = () => {
   return (
     <div>
-      <Header />
+      <p>SplashScreen</p>
     </div>
   );
 }
