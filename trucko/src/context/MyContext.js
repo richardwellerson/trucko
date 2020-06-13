@@ -47,10 +47,13 @@ const truckers = [
 
 const MyContext = ({ children }) => {
   const [users, setUsers] = useState(truckers);
+  const [actualUser, setActualUser] = useState(truckers[0]);
 
   const toTrucko = {
     users,
     setUsers,
+    actualUser,
+    setActualUser,
   };
 
   return <Trucko.Provider value={toTrucko}>{children}</Trucko.Provider>;
