@@ -6,12 +6,13 @@ import Forum from "./pages/Forum";
 import Ranking from "./pages/Ranking";
 import Home from "./pages/Home";
 import "./App.css";
+import FirstRun from "./pages/FirstRun";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={FirstRun} />
         <Route path="/profile" component={Profile} />
         <Route exact path="/forum" component={Forum} />
         <Route exact path="/support" component={Support} />
