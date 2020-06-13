@@ -3,7 +3,6 @@ import Trucko from '../context';
 
 const StartDay = () => {
   const { actualUser } = useContext(Trucko);
-
   return (
     <div>
       <img
