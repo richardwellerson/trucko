@@ -1,0 +1,10 @@
+.header_all {
+  text-align: center;
+  padding: 2vh;
+  background-color: rgb(216, 216, 216);
+}
+
+.header_logo {
+  width: auto;
+  height: 5vh;
+}
