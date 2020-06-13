@@ -1,5 +1,5 @@
-import { createContext } from 'react';
+import { createContext } from "react";
 
-const trucko = createContext();
+const Trucko = createContext();
 
-export default trucko;
+export default Trucko;
