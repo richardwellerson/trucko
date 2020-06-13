@@ -1,13 +1,11 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import SplashScreen from "./pages/SplashScreen";
 import Profile from "./pages/Profile";
 import Support from "./pages/Support";
 import Forum from "./pages/Forum";
 import Ranking from "./pages/Ranking";
 import Home from "./pages/Home";
 import "./App.css";
-import FirstRun from "./pages/FirstRun";
 
 const App = () => {
   return (
