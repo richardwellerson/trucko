@@ -7,6 +7,7 @@ import Forum from "./pages/Forum";
 import Ranking from "./pages/Ranking";
 import Home from "./pages/Home";
 import "./App.css";
+import FirstRun from "./pages/FirstRun";
 
 const App = () => {
   return (
