@@ -1,8 +1,8 @@
 import React from 'react';
 
 const StartButton = () => {
-  return(
-    <button>Iniciar</button>
+  return (
+    <button className="green_button">Iniciar</button>
   );
 };
 
