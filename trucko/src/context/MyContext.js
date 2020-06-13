@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Trucko from "./index";
-import Naldo from '../img/Naldo.svg';
-import Nay from '../img/Nay.svg';
-import Folgado from '../img/Folgado.svg';
-import Travesso from '../img/Travesso.svg';
+import Naldo from "../img/Naldo.svg";
+import Nay from "../img/Nay.svg";
+import Folgado from "../img/Folgado.svg";
+import Travesso from "../img/Travesso.svg";
 
 const truckers = [
   {
@@ -48,12 +48,18 @@ const truckers = [
 const MyContext = ({ children }) => {
   const [users, setUsers] = useState(truckers);
   const [actualUser, setActualUser] = useState(truckers[0]);
+  const [homeText, setHomeText] = useState("");
+  const [homeLight, setHomeLight] = useState([]);
 
   const toTrucko = {
     users,
     setUsers,
     actualUser,
     setActualUser,
+    homeText,
+    setHomeText,
+    homeLight,
+    setHomeLight,
   };
 
   return <Trucko.Provider value={toTrucko}>{children}</Trucko.Provider>;

@@ -13,16 +13,16 @@
   margin: 0 auto;
 }
 
-.home_all img {
+.home_logo img {
   width: 63vw;
 }
 
-.home_meio {
+.text_bold {
   line-height: 6vh;
   margin: 5vw 0;
 }
 
-.home_meio p {
+.text_bold p {
   font-size: 8vw;
   font-weight: bold;
 }
