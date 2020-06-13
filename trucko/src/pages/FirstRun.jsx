@@ -5,10 +5,11 @@ import StartButton from '../components/StartButton';
 import StartDay from '../components/StartDay';
 import Feels from '../components/Feels';
 import Footer from '../components/Footer';
+import '../styles/FirstRun.css';
 
 const FirstRun = () => {
   return (
-    <div>
+    <div className="first_run_all">
       <Header />
       <Welcome />
       <StartDay />
