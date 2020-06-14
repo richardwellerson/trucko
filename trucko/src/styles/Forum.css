@@ -1,0 +1,136 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Reset Select */
+
+.select {
+  margin: 0 auto;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #e8edef;
+  background-image: none;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  width: 34vw;
+  height: 3rem;
+  line-height: 3;
+  background: #e8edef;
+  overflow: hidden;
+  border-radius: .25em;
+}
+
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #11232d;
+  cursor: pointer;
+  font-size: 4.5vw;
+}
+
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  background: #e8edef;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+.select:hover::after {
+  color: #11232d;
+}
+
+.containerModo {
+  width: 100vw;
+}
+
+.anonimo img {
+  width: 35vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.destaque {
+  font-weight: 900;
+  font-size: 8vw;
+}
+
+.anonimo .destaque {
+  text-align: center;
+  margin: 0;
+}
+
+.inputModel label {
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  width: 100vw;
+  display: block;
+  margin-bottom: 2vw;
+}
+
+.inputModel input {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 3vw;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  width: 70vw;
+}
+
+.btn-principal {
+  background-color: #44b549;
+  color: #11232d;
+  text-align: center;
+  display: block;
+  width: 76vw;
+  border: none;
+  padding: 3vw;
+  border-radius: 8px;
+  margin: 5vw auto;
+}
+
+.descri .box {
+  width: 70vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.descri p {
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.anonimo {
+  position: relative;
+}
+
+.indicativo {
+  position: absolute;
+  right: 27vw;
+  bottom: 15vh;
+  width: 6vw;
+}
+
+.indicativo img {
+  width: 9vw;
+}

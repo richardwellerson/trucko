@@ -1,10 +1,10 @@
 import React from 'react';
-import VerySad from '../img/VerySad.svg';
-import Sad from '../img/Sad.svg';
-import Ok from '../img/Ok.svg';
-import Happy from '../img/Happy.svg';
-import VeryHappy from '../img/VeryHappy.svg';
 import '../styles/Feels.css';
+import VerySad from '../img/verySad.png';
+import Sad from '../img/sad.png';
+import Ok from '../img/ok.png';
+import Happy from '../img/happy.png';
+import VeryHappy from '../img/veryHappy.png'
 
 const feelings = [VerySad, Sad, Ok, Happy, VeryHappy];
 const textFeelings = ['Muito mal', 'Mal', 'Ok', 'Bem', 'Muito bem'];
@@ -12,10 +12,13 @@ const textFeelings = ['Muito mal', 'Mal', 'Ok', 'Bem', 'Muito bem'];
 const Feels = () => {
   return (
     <div className="feels_all">
-      <p>Como você está se sentindo hoje?</p>
+      <p className="feels_question">Como você está se sentindo hoje?</p>
       <div className="feels_options">
         {feelings.map((feel, index) => (
-          <div className="feels_icon_div">
+          <div
+            className="feels_icon_div"
+            key={`${textFeelings[index]} icon`}
+          >
             <img
               src={feel}
               alt={`feels ${textFeelings[index]}`}

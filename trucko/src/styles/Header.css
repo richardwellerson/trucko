@@ -1,10 +1,28 @@
 .header_all {
-  text-align: center;
-  padding: 2vh;
-  background-color: rgb(216, 216, 216);
+  display: flex;
+  padding: 3vh 0;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header_tag_menu {
+  width: 5vh;
+  height: auto;
+  padding-left: 2vw;
 }
 
 .header_logo {
   width: auto;
   height: 5vh;
+  padding: 0 5vw;
+}
+
+.header_awards {
+  font-size: 3vw;
+}
+
+.header_right {
+  display: flex;
+  
 }
