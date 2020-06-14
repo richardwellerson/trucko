@@ -1,17 +1,20 @@
 import React from "react";
+import Forum from '../img/Forum.svg';
+import Exercise from '../img/Exercise.svg';
+import Truck from '../img/StartAct.svg';
+import News from '../img/News.svg';
+import Trophy from '../img/Trophy.svg';
 import "../styles/Footer.css";
-import Help from "../img/Help.svg";
-import User from "../img/User.svg";
-import Point from "../img/Point.svg";
-import Question from "../img/Question.svg";
+
 
 const Footer = () => {
   return (
     <div className="footer">
-      <img src={User} alt="User" />
-      <img src={Question} alt="Question" />
-      <img src={Point} alt="Point" />
-      <img src={Help} alt="Help" />
+      <img src={Forum} alt="Forum" />
+      <img src={Exercise} alt="Exercise" />
+      <img className="footer_truck" src={Truck} alt="Point" />
+      <img src={News} alt="News" />
+      <img src={Trophy} alt="Ranking" />
     </div>
   );
 };

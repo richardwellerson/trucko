@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2vh 0;
 }
 
 .feels_options {
@@ -12,12 +13,15 @@
 }
 
 .feels_icon {
-  width: 8vw;
+  width: 8vh;
+  padding: 0 1vw;
 }
 
 .feels_text {
-  font-size: 2vw;
+  font-size: 1.5vh;
+  word-break: unset;
   text-align: center;
+  line-height: 1vh;
 }
 
 .feels_icon_div {
@@ -26,4 +30,9 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.feels_question {
+  font-weight: 700;
+  font-size: 2vh;
 }

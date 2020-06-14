@@ -9,18 +9,14 @@ import "../styles/FirstRun.css";
 
 const FirstRun = () => {
   return (
-    <>
-      <div className="header">
-        <Header />
-      </div>
-      <div className="first_run_all">
-        <Welcome />
-        <StartDay />
-        <Feels />
-        <StartButton />
-        <Footer />
-      </div>
-    </>
+    <div className="first_run_all">
+      <Header />
+      <Welcome />
+      <StartDay />
+      <Feels />
+      <StartButton />
+      <Footer />
+    </div>
   );
 };
 
