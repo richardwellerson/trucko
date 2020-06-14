@@ -1,11 +1,11 @@
-import React, { useContext, useState } from 'react';
-import '../styles/Feels.css';
+import React, { useContext } from 'react';
 import VerySad from '../img/verySad.png';
 import Sad from '../img/sad.png';
 import Ok from '../img/ok.png';
 import Happy from '../img/happy.png';
 import VeryHappy from '../img/veryHappy.png'
 import Trucko from '../context/';
+import '../styles/Feels.css';
 
 const feelings = [VerySad, Sad, Ok, Happy, VeryHappy];
 const textFeelings = ['Muito mal', 'Mal', 'Ok', 'Bem', 'Muito bem'];

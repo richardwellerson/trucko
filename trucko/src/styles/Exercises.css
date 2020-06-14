@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.destaque {
+  font-weight: 900;
+  font-size: 8vw;
+}
+
+.title {
+  width: 60vw;
+  display: block;
+  margin: 6vw auto 0;
+}
+
+.title .destaque {
+  text-align: center;
+  margin: 0;
+}
+
+.title p {
+  text-align: center;
+  margin: 0;
+}
+
+.btn-principal {
+  background-color: #44b549;
+  color: #11232d;
+  text-align: center;
+  display: block;
+  width: 76vw;
+  border: none;
+  padding: 3vw;
+  border-radius: 8px;
+  margin: 5vw auto;
+  font-weight: 400;
+}
+.btn-secundario {
+  background-color: #11232d;
+  color: #e8edef;
+  text-align: center;
+  display: block;
+  width: 76vw;
+  border: none;
+  padding: 3vw;
+  border-radius: 8px;
+  margin: 5vw auto;
+}
+/*Tela aqui*/
+
+.frase {
+  margin: 4vw auto 0;
+}
+
+.frase img {
+  display: block;
+  width: 20vw;
+  margin: 20vw auto 0;
+}
+
+.frase p {
+  text-align: center;
+  margin: 0;
+}
+
+.escolherExer {
+  margin: 15vw auto 0;
+}
+
+.escolherExer p {
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 0;
+}
