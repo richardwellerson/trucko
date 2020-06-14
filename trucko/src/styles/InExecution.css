@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.destaque {
+  font-weight: 900;
+  font-size: 8vw;
+}
+
+.title {
+  width: 60vw;
+  display: block;
+  margin: 6vw auto 0;
+}
+
+.title .destaque {
+  text-align: center;
+  margin: 0;
+}
+
+.title p {
+  text-align: center;
+  margin: 0;
+}
+
+.btn-principal {
+  background-color: #44b549;
+  color: #11232d;
+  text-align: center;
+  display: block;
+  width: 76vw;
+  border: none;
+  padding: 3vw;
+  border-radius: 8px;
+  margin: 5vw auto;
+  font-weight: 400;
+}
+
+.btn-secundario {
+  background-color: #11232d;
+  color: #e8edef;
+  text-align: center;
+  display: block;
+  width: 76vw;
+  border: none;
+  padding: 3vw;
+  border-radius: 8px;
+  margin: 5vw auto;
+}
+
+/*Tela aqui*/
+
+.contador {
+  margin: 20vw auto 0;
+}
+
+.contador p {
+  margin: 0;
+  text-align: center;
+}
+
+.finalizar {
+  margin: 20vw auto 0;
+}
+
+.finalizar p {
+  text-align: center;
+  display: block;
+  width: 70vw;
+  margin: 0 auto;
+}

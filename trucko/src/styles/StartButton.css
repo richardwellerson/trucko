@@ -1,0 +1,9 @@
+.start_button_green {
+  border: 1px solid rgb(68, 181, 73);
+  background-color: rgb(68, 181, 73);
+  color: rgb(18, 35, 45);
+  border-radius: 3vw;
+  padding: 3.5vw 18vh;
+  font-size: 4.5vw;
+  margin-top: 10vh;
+}
