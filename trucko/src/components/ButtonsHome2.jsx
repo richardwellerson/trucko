@@ -1,8 +1,8 @@
 import React from "react";
 
-const ButtonsHome2 = () => {
+const ButtonsHome2 = (props) => {
   return (
-    <div className="green_button2">
+    <div className={props.className}>
       <button>Criar conta</button>
       <button>Fazer login</button>
     </div>
