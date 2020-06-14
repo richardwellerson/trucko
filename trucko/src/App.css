@@ -1,7 +1,7 @@
 body {
-  font-family: "Poppins", sans-serif;
-  margin: 0 8vw;
+  font-family: "Open Sans", sans-serif;
   background-color: rgb(232, 238, 240);
+  color: rgb(18, 35, 45);
 }
 
 .App {
