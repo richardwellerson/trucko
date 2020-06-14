@@ -2,12 +2,10 @@ import React from "react";
 import Proptypes from 'prop-types';
 import '../styles/Home.css';
 
-const TextLight = ({ props }) => {
+const TextLight = (props) => {
   return (
     <div>
-      {props.map((word) => (
-        <p className="text_light">{word}</p>
-      ))}
+      <p className="text_light">{props.textLight}</p>
     </div>
   );
 };
@@ -15,5 +13,5 @@ const TextLight = ({ props }) => {
 export default TextLight;
 
 TextLight.propTypes = {
-  props: Proptypes.string,
+  textLight: Proptypes.string,
 };
