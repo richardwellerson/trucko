@@ -1,9 +1,9 @@
 import React from "react";
 
-const NextButton = () => {
+const NextButton = (props) => {
   return (
     <div>
-      <button className="green_button">Próximo</button>
+      <button className={props.className}>Próximo</button>
     </div>
   );
 };

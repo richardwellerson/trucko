@@ -8,7 +8,7 @@ const HomeBot = () => {
         <p>100% grátis</p>
       </div>
       <div>
-        <NextButton />
+        <NextButton className="green_button" />
       </div>
     </div>
   );

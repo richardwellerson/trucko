@@ -1,0 +1,28 @@
+.text_bottom_light2 {
+  font-size: 4.5vw;
+}
+
+.text_bottom_light2 p {
+  margin: 0 auto;
+  font-size: 3.5vw;
+  line-height: 2.8vh;
+}
+
+.text_bottom_bold p {
+  margin-top: 5vh;
+}
+
+.text_bold_small {
+  line-height: 4vh;
+  font-size: 6.8vw;
+}
+
+.green_button3 {
+  margin-top: 7vh;
+  border: 1px solid rgb(68, 181, 73);
+  background-color: rgb(68, 181, 73);
+  color: rgb(18, 35, 45);
+  border-radius: 3vw;
+  padding: 3.5vw 18vh;
+  font-size: 4.5vw;
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import logo2 from "../img/logo2.png";
+import logo2 from "../img/logo2.svg";
 
-const HomeLogo = () => {
+const HomeLogo = (props) => {
   return (
-    <div className="home_logo">
+    <div className={props.className}>
       <img src={logo2} alt="logo" />
     </div>
   );
