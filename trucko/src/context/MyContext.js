@@ -15,7 +15,7 @@ const truckers = [
     placar: 560000,
     pict: Naldo,
     email: "reginaldoreidoasfalto@gmail.com",
-    id: "06899123456782020", 
+    id: "06899123456782020",
   },
   {
     nome: "Nayara Nascimento",
@@ -85,6 +85,7 @@ const MyContext = ({ children }) => {
   const [users, setUsers] = useState(truckers);
   const [actualUser, setActualUser] = useState(truckers[0]);
   const [forum, setForum] = useState(questions);
+  const [dayFeelings, setDayFeelings] = useState('');
 
   const toTrucko = {
     users,
@@ -93,6 +94,8 @@ const MyContext = ({ children }) => {
     setActualUser,
     forum,
     setForum,
+    dayFeelings,
+    setDayFeelings,
   };
 
   return <Trucko.Provider value={toTrucko}>{children}</Trucko.Provider>;
