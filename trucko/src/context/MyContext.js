@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Trucko from "./index";
-import Naldo from '../img/Naldo.svg';
-import Nay from '../img/Nay.svg';
-import Folgado from '../img/Folgado.svg';
-import Travesso from '../img/Travesso.svg';
+import Naldo from "../img/Naldo.svg";
+import Nay from "../img/Nay.svg";
+import Folgado from "../img/Folgado.svg";
+import Travesso from "../img/Travesso.svg";
 
 const truckers = [
   {

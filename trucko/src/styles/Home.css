@@ -3,28 +3,29 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin: 8vh 0;
+  margin: 8vh 8vh;
   text-align: center;
   font-size: 4.5vw;
-  font-weight: 100;
 }
 
 .home_all p {
   margin: 0 auto;
+  font-weight: 400;
 }
 
-.home_all img {
+.home_logo img {
   width: 63vw;
 }
 
-.home_meio {
-  line-height: 6vh;
+.text_bold {
+  font-size: 8vw;
+  font-weight: 800;
   margin: 5vw 0;
+  line-height: 4.5vh;
 }
 
-.home_meio p {
-  font-size: 8vw;
-  font-weight: bold;
+.text_light {
+  font-weight: lighter;
 }
 
 .home_inferior {
@@ -39,6 +40,7 @@
 .green_button {
   border: 1px solid rgb(68, 181, 73);
   background-color: rgb(68, 181, 73);
+  color: rgb(18, 35, 45);
   border-radius: 3vw;
   padding: 3.5vw 18vh;
   font-size: 4.5vw;

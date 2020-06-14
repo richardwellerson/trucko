@@ -1,0 +1,49 @@
+.home_all2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 8vh 8vh;
+  text-align: center;
+  font-size: 4.5vw;
+}
+
+.home_logo2 img {
+  width: 23vh;
+}
+
+.text_bottom_bold p {
+  font-weight: 800;
+  font-size: 4.5vw;
+  margin-top: 7vh;
+  margin-bottom: 0;
+}
+
+.home_awards img {
+  width: 4vw;
+  padding-right: 1vw;
+}
+
+.text_bottom_light {
+  font-size: 5.5vw;
+  font-weight: 400;
+}
+
+.text_bottom_light p {
+  margin: 0;
+}
+
+.green_button2 {
+  display: flex;
+  margin-top: 7vh;
+}
+
+.green_button2 button {
+  border: 1px solid rgb(68, 181, 73);
+  background-color: rgb(68, 181, 73);
+  color: rgb(18, 35, 45);
+  border-radius: 3vw;
+  padding: 3.5vw 3vh;
+  font-size: 4.5vw;
+  margin: 1vw 1vw;
+}

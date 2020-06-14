@@ -5,7 +5,7 @@ const HomeTop = () => {
   return (
     <div>
       <p>Bem-vindo ao</p>
-      <HomeLogo />
+      <HomeLogo className="home_logo" />
       <div>
         <p>
           O clube de benefícios
