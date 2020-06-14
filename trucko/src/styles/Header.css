@@ -1,7 +1,8 @@
 .header_all {
-  text-align: center;
+  text-align: start;
   padding: 2vh;
-  background-color: rgb(216, 216, 216);
+  background-color: white;
+  width: 100%;
 }
 
 .header_logo {

@@ -2,8 +2,8 @@
   position: fixed;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  padding-bottom: 2vh;
-  padding-top: 4.5vh;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
