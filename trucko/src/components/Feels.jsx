@@ -34,8 +34,7 @@ const answerFeelings = (answer, setDayFeelings, setIsHidden) => {
 };
 
 const Feels = () => {
-  const { setDayFeelings } = useContext(Trucko);
-  const [isHidden, setIsHidden] = useState(false);
+  const { isHidden, setIsHidden, setDayFeelings } = useContext(Trucko);
   return (
     !isHidden
       ? <div

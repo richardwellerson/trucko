@@ -86,6 +86,7 @@ const MyContext = ({ children }) => {
   const [actualUser, setActualUser] = useState(truckers[0]);
   const [forum, setForum] = useState(questions);
   const [dayFeelings, setDayFeelings] = useState('');
+  const [isHidden, setIsHidden] = useState(false);
 
   const toTrucko = {
     users,
@@ -96,6 +97,8 @@ const MyContext = ({ children }) => {
     setForum,
     dayFeelings,
     setDayFeelings,
+    isHidden,
+    setIsHidden,
   };
 
   return <Trucko.Provider value={toTrucko}>{children}</Trucko.Provider>;
