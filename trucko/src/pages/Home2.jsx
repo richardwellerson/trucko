@@ -19,7 +19,7 @@ const Home2 = () => {
         <TextBold className="text_bold" textBold={toBold} />
         <HomeAwards />
         <HomeBot2 textBottom={textBottom} className="text_bottom_light" textBottomSmall={textBottomSmall} />
-        <ButtonsHome2 />
+        <ButtonsHome2 className="green_button2" />
       </div>
     </div>
   );

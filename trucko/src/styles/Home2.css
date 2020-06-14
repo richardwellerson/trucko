@@ -47,3 +47,8 @@
   font-size: 4.5vw;
   margin: 1vw 1vw;
 }
+
+.header_form {
+  display: flex;
+  justify-content: space-between;
+}
