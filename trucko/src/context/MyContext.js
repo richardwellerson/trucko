@@ -48,18 +48,12 @@ const truckers = [
 const MyContext = ({ children }) => {
   const [users, setUsers] = useState(truckers);
   const [actualUser, setActualUser] = useState(truckers[0]);
-  const [homeText, setHomeText] = useState("");
-  const [homeLight, setHomeLight] = useState([]);
 
   const toTrucko = {
     users,
     setUsers,
     actualUser,
     setActualUser,
-    homeText,
-    setHomeText,
-    homeLight,
-    setHomeLight,
   };
 
   return <Trucko.Provider value={toTrucko}>{children}</Trucko.Provider>;

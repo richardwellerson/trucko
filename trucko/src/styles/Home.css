@@ -18,13 +18,13 @@
 }
 
 .text_bold {
-  line-height: 6vh;
+  font-size: 8vw;
+  font-weight: bold;
   margin: 5vw 0;
 }
 
-.text_bold p {
-  font-size: 8vw;
-  font-weight: bold;
+.text_light {
+  font-weight: lighter;
 }
 
 .home_inferior {

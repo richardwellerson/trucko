@@ -1,13 +1,16 @@
-import React, { useContext } from "react";
-import Trucko from "../context";
+import React from "react";
+import Proptypes from 'prop-types';
 
-const TextBold = () => {
-  const { homeText } = useContext(Trucko);
+const TextBold = ({ props }) => {
   return (
-    <div className="text_bold">
-      <p>{homeText}</p>
+    <div>
+      <p className="text_bold">{props}</p>
     </div>
   );
 };
 
 export default TextBold;
+
+TextBold.propTypes = {
+  props: Proptypes.string,
+};

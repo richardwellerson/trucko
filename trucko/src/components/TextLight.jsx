@@ -1,15 +1,19 @@
-import React, { useContext } from "react";
-import Trucko from "../context";
+import React from "react";
+import Proptypes from 'prop-types';
+import '../styles/Home.css';
 
-const TextLight = () => {
-  const { homeLight } = useContext(Trucko);
+const TextLight = ({ props }) => {
   return (
     <div>
-      {homeLight.map((word) => (
-        <p>{word}</p>
+      {props.map((word) => (
+        <p className="text_light">{word}</p>
       ))}
     </div>
   );
 };
 
 export default TextLight;
+
+TextLight.propTypes = {
+  props: Proptypes.string,
+};
