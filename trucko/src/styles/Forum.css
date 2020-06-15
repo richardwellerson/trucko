@@ -29,19 +29,19 @@ select {
   line-height: 3;
   background: #e8edef;
   overflow: hidden;
-  border-radius: .25em;
+  border-radius: 0.25em;
 }
 
 select {
   flex: 1;
-  padding: 0 .5em;
+  padding: 0 1.5em;
   color: #11232d;
   cursor: pointer;
   font-size: 4.5vw;
 }
 
 .select::after {
-  content: '\25BC';
+  content: "\25BC";
   position: absolute;
   top: 0;
   right: 0;
@@ -49,9 +49,9 @@ select {
   background: #e8edef;
   cursor: pointer;
   pointer-events: none;
-  -webkit-transition: .25s all ease;
-  -o-transition: .25s all ease;
-  transition: .25s all ease;
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
 }
 
 .select:hover::after {
@@ -81,7 +81,7 @@ select {
 .inputModel label {
   text-align: center;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 100vw;
   display: block;
   margin-bottom: 2vw;

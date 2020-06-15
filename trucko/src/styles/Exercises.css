@@ -56,7 +56,7 @@
 .frase img {
   display: block;
   width: 20vw;
-  margin: 20vw auto 0;
+  margin: 14vw auto 0;
 }
 
 .frase p {
@@ -65,11 +65,15 @@
 }
 
 .escolherExer {
-  margin: 15vw auto 0;
+  margin: 2vw auto 0;
 }
 
 .escolherExer p {
   font-weight: 900;
   text-align: center;
   margin-bottom: 0;
+}
+
+.escolherExer a {
+  text-decoration: none;
 }
