@@ -12,11 +12,6 @@ const News = () => {
     <div>
       <Header />
       <div class="container">
-        <div class="container_ad">
-          <a href="#">
-            <img src="imgs/ad-banner.jpg" alt="exibicao_news" />
-          </a>
-        </div>
         <div class="container-noticias">
           <div class="noticias_title">
             <p class="noticias_destaque">Notícias</p>
