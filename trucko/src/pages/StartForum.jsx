@@ -37,10 +37,10 @@ const StartForum = () => {
         <div className="descri">
           <div className="box">
             <p className="destaque">Fórum</p>
-            <span>
+            <p>
               Tem alguma dúvida, precisa de alguma ajuda ou está passando por algum dificuldade?
               Deixe sua pergunta que outros caminhoneiros te ajudam.
-          </span>
+          </p>
           </div>
         </div>
         <Footer />
