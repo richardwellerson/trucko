@@ -23,6 +23,7 @@ const App = () => {
         <Route path="/forum" component={StartForum} />
         <Route path="/ranking" component={Ranking} />
       </Switch>
+      
     </BrowserRouter>
   );
 };
