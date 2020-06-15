@@ -1,7 +1,7 @@
 import React from "react";
 import NextButton from "./NextButton";
 
-const HomeBot = () => {
+const HomeBot = ({ page }) => {
   return (
     <div>
       <div className="home_inferior">
