@@ -5,13 +5,13 @@
 
 .destaque {
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 6.5vw;
 }
 
 .title {
   width: 60vw;
   display: block;
-  margin: 6vw auto 0;
+  margin: 18vh auto 0;
 }
 
 .title .destaque {
@@ -36,6 +36,11 @@
   margin: 5vw auto;
   font-weight: 400;
 }
+
+.btn-principal a:link {
+  text-decoration: none;
+}
+
 .btn-secundario {
   background-color: #11232d;
   color: #e8edef;
@@ -47,6 +52,7 @@
   border-radius: 8px;
   margin: 5vw auto;
 }
+
 /*Tela aqui*/
 
 .frase {
