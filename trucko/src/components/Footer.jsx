@@ -5,7 +5,11 @@ import Truck from "../img/StartAct.svg";
 import News from "../img/News.svg";
 import Trophy from "../img/Trophy.svg";
 import "../styles/Footer.css";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
+=======
+import { Link } from 'react-router-dom';
+>>>>>>> 101d4db903fb73009031ba416b356207fa145c14
 
 const Footer = () => {
   return (
