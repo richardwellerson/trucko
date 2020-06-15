@@ -20,7 +20,6 @@ const Home3 = () => {
         <TextBold className="text_bold_small" textBold={toBold} />
         <HomeAwards2 />
         <HomeBot2 textBottom={textBottom} className="text_bottom_light2" textBottomSmall={textBottomSmall} />
-        <NextButton className="green_button3" />
       </div>
     </div>
   );
